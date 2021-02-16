@@ -3,6 +3,8 @@
     <!-- Define your colors in `res/values/colors.xml` -->
 
     <color name="netflix_red">#E50914</color>
+    <color name="duskYellow">#ffc922</color>
+    <color name="lightGrey">#d3d3d3</color>
 
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="android:actionBarStyle">@style/MyActionBar</item>
@@ -29,6 +31,11 @@
 
     <style name="MyActionBarTabText" parent="@style/Widget.AppCompat.ActionBar.TabText">
         <item name="android:textColor">@color/netflix_red</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/lightGrey</item>
+        <item name="colorControlActivated">@color/duskYellow</item>
     </style>
 
 </resources>
